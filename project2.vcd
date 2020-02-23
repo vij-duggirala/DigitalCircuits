@@ -1,0 +1,72 @@
+$date
+	Thu Nov 14 15:37:00 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module stimulus $end
+$var wire 2 ! output_z [1:0] $end
+$var reg 1 " clock $end
+$var reg 1 # input_x $end
+$var reg 1 $ reset $end
+$scope module name $end
+$var wire 1 " clock $end
+$var wire 1 # input_x $end
+$var wire 1 $ reset $end
+$var reg 2 % current_state [1:0] $end
+$var reg 2 & next_state [1:0] $end
+$var reg 2 ' output_z [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 '
+b0 &
+b0 %
+1$
+0#
+0"
+b0 !
+$end
+#5
+1"
+#10
+0"
+#15
+1"
+#20
+0"
+#25
+1"
+#30
+0"
+0$
+#35
+b1 !
+b1 '
+b1 &
+1"
+1#
+#40
+0"
+#45
+b0 !
+b0 '
+b0 &
+b1 %
+1"
+#50
+0"
+#55
+b0 !
+b0 '
+b0 %
+b0 &
+1"
+0#
+#60
+0"
